@@ -11,14 +11,14 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Home/>}/>
-        <Route path="/dashboard" element={ <Dashboard/> }/>
-        <Route path="events/all" element={ <Events/> }/>
-        <Route path="/events/:category" element={ <EventCategories />}/>
-        <Route path="/create/event" element={ <CreateEvent/> }/>
-        <Route path="/event/:slug" element={ <EventDetails/> }/>
+        <Route path="/" element={<Home />} />
+        <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="events/all" element={<Events />} />
+        <Route path="/events/:category" element={<EventCategories />} />
+        <Route path="/create/event" element={<CreateEvent />} />
+        <Route path="/event/:slug" element={<EventDetails />} />
       </Routes>
-    </Router> 
+    </Router>
   )
 }
 
