@@ -29,7 +29,6 @@ const Events = () => {
               >
                 <AiOutlineCalendar style={{ marginRight: "5px" }} />
                 <p>Starting at 8:00pm</p>
-
               </div>
               <div
                 style={{
@@ -55,12 +54,10 @@ const Events = () => {
               </div>
             </div>
           </Link>
-
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default Events
-
+export default Events;
