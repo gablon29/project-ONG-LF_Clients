@@ -18,9 +18,12 @@ const EventDetails = () => {
       <header className="detail_header">
         <h2 style={{ marginBottom: "15px" }}>Title</h2>
         <p style={{ opacity: 0.6 }}>
-          Hosted by: <span style={{ fontWeight: "bold" }}>Host</span>
+          Hosted by: <span style={{ fontWeight: "bold" }}>Hosts</span>
         </p>
       </header>
+      <main className="detail_main">
+        <div className="detail_content"></div>
+      </main>
     </div>
   );
 };
