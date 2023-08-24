@@ -1,12 +1,13 @@
-
+import Nav from "../components/Nav";
+import event from "../assets/imagenProjectoMeekup.jpg";
+import { useState } from "react";
+import { useParams } from "react-router-dom";
 
 const EventDetails = () => {
-  return (
-    <div>
-      
-    </div>
-  )
-}
+  const [comment, setComment] = useState("");
+  const { slug } = useParams();
 
-export default EventDetails
+  return <div></div>;
+};
 
+export default EventDetails;
