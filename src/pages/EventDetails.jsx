@@ -7,7 +7,22 @@ const EventDetails = () => {
   const [comment, setComment] = useState("");
   const { slug } = useParams();
 
-  return <div></div>;
+  const addComment = (evento) => {
+    evento.preventDefault();
+    console.log(comment, slug);
+  };
+
+  return (
+    <div>
+      <Nav />
+      <header className="detail_header">
+        <h2 style={{ marginBottom: "15px" }}>Title</h2>
+        <p style={{ opacity: 0.6 }}>
+          Hosted by: <span style={{ fontWeight: "bold" }}>Host</span>
+        </p>
+      </header>
+    </div>
+  );
 };
 
 export default EventDetails;
