@@ -1,6 +1,6 @@
 import Nav from "../components/Nav";
 import { useState } from "react";
-import { postNewEvent } from "../utils/util";
+// import { postNewEvent } from "../utils/util";
 import { useNavigate } from "react-router-dom";
 
 const CreateEvent = () => {

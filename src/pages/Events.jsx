@@ -1,8 +1,8 @@
-import event from "../assets/imagenProjectMeekup.jpg";
+import event from "../assets/imagenProjectoMeekup.jpg";
 import Nav from "../components/Nav";
 import { AiOutlineCalendar } from "react-icons/ai";
-import { BsCheckCircle } from "react-incos/bs";
-import { Imlocation2 } from "react-icons/im";
+import { BsCheckCircle } from "react-icons/bs";
+import { ImHome } from "react-icons/im";
 import { Link } from "react-router-dom";
 
 const Events = () => {
@@ -38,7 +38,7 @@ const Events = () => {
                   marginBottom: "10px",
                 }}
               >
-                <Imlocation2 style={{ marginRight: "5px", color: "red" }} />
+                <ImHome style={{ marginRight: "5px", color: "red" }} />
                 <p>Online (Discord Channel)</p>
               </div>
               <div
