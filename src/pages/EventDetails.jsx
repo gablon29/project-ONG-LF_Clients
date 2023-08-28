@@ -22,7 +22,23 @@ const EventDetails = () => {
         </p>
       </header>
       <main className="detail_main">
-        <div className="detail_content"></div>
+        <div className="detail_content">
+          <img src={event} alt="Event" className="detail_image" />
+          <div style={{ marginBottom: "30px" }}>Description</div>
+          <div style={{ marginBottom: "30px 0" }}>
+            <h2 style={{ color: "#1d5d9b" }}>Comment</h2>
+            <form onSubmit={addComment} className="comment_form">
+              <textarea
+                rows={4}
+                className="commentInput"
+                value={comment}
+                onChange={(evento) => setComment(evento.target.value)}
+                required
+              />
+              <button className="buttons commentBtn">Comment</button>
+            </form>
+          </div>
+        </div>
       </main>
     </div>
   );
