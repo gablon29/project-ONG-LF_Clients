@@ -37,7 +37,27 @@ const EventDetails = () => {
               />
               <button className="buttons commentBtn">Comment</button>
             </form>
+            <div className="comment_section">
+              <div
+                style={{
+                  padding: "15px",
+                  border: "1px solid #ddd",
+                  borderRadius: "3px",
+                  marginBottom: "10px",
+                }}
+                key={comment.id}
+              >
+                <p style={{ color: "#1d5d9b", marginBottom: "3px" }}>@User</p>
+                <p style={{ opacity: 0.5 }}>Comment</p>
+              </div>
+            </div>
           </div>
+        </div>
+        <div className="detail_cta">
+          <p style={{ marginBottom: "10px", opacity: "0.6" }}>
+            Click here to register
+          </p>
+          <button className="buttons registerBtn">Register</button>
         </div>
       </main>
     </div>
