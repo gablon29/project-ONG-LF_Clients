@@ -12,6 +12,7 @@ const Dashboard = () => {
             Create new event
           </Link>
         </section>
+        <div>{/**user´s events */}</div>
       </div>
     </div>
   );
